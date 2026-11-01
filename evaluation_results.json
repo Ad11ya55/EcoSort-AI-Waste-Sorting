@@ -1,0 +1,106 @@
+{
+  "accuracy": 0.9090909090909091,
+  "macro": {
+    "precision": 0.9109473574185998,
+    "recall": 0.888187819841992,
+    "f1": 0.8975311330436989
+  },
+  "per_class": {
+    "cardboard": {
+      "precision": 0.9859154929577465,
+      "recall": 0.9090909090909091,
+      "f1": 0.9459459459459459,
+      "support": 77
+    },
+    "glass": {
+      "precision": 0.8706896551724138,
+      "recall": 0.9619047619047619,
+      "f1": 0.9140271493212669,
+      "support": 105
+    },
+    "metal": {
+      "precision": 0.9382716049382716,
+      "recall": 0.8837209302325582,
+      "f1": 0.9101796407185628,
+      "support": 86
+    },
+    "paper": {
+      "precision": 0.8828125,
+      "recall": 0.9741379310344828,
+      "f1": 0.9262295081967213,
+      "support": 116
+    },
+    "plastic": {
+      "precision": 0.9259259259259259,
+      "recall": 0.8426966292134831,
+      "f1": 0.8823529411764706,
+      "support": 89
+    },
+    "trash": {
+      "precision": 0.8620689655172413,
+      "recall": 0.7575757575757576,
+      "f1": 0.8064516129032258,
+      "support": 33
+    }
+  },
+  "class_order": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "confusion_matrix": [
+    [
+      70,
+      1,
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      101,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      1,
+      6,
+      76,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      113,
+      0,
+      2
+    ],
+    [
+      0,
+      8,
+      3,
+      1,
+      75,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      3,
+      25
+    ]
+  ],
+  "image_count": 506,
+  "evaluation_set": "validation split used for checkpoint selection; score may be optimistic"
+}

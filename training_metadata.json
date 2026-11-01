@@ -1,0 +1,31 @@
+{
+  "dataset": "data/trashnet/dataset-resized",
+  "image_count": 2527,
+  "class_counts": {
+    "cardboard": 403,
+    "glass": 501,
+    "metal": 410,
+    "paper": 594,
+    "plastic": 482,
+    "trash": 137
+  },
+  "class_names": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "train_images": 2021,
+  "validation_images": 506,
+  "split": "80/20 random split",
+  "seed": 42,
+  "epochs": 8,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "fine_tune_learning_rate": 0.0001,
+  "best_validation_accuracy": 0.9090909090909091,
+  "device": "cpu",
+  "elapsed_seconds": 1240.4873731136322
+}
