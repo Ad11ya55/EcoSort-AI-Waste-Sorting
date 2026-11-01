@@ -1,0 +1,18 @@
+# Local Python environment and runtime caches
+.venv/
+__pycache__/
+*.py[cod]
+.torch_cache/
+.tmp/
+
+# Downloaded training data and generated packaging output
+data/
+build/
+dist/
+*.zip
+
+# Local logs and editor/OS files
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
